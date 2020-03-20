@@ -1,7 +1,5 @@
 package advance.sort;
 
-import javafx.scene.layout.VBox;
-
 /**
  * 查找数组中某个数的父结点和左右孩子结点，比如已知索引为i的数，那么:
  * 1.父结点索引：(i-1)/2（这里计算机中的除以2，省略掉小数）

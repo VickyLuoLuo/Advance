@@ -2,7 +2,7 @@ package advance.sort;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] datas = {3, 6, 1, 10, 5, 6, 3, 1, 3};
+        int[] datas = {5, 4, 3, 2, 1};
         quickSort(datas, 0, datas.length - 1);
         print(datas);
     }
