@@ -3,7 +3,7 @@ package advance.collection;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class Collection {
+public class Summary {
     public static void main(String[] args) {
         // HashMap是数组+链表(1.8优化成数组+链表+红黑树)的组合实现，数组存储数据，链表解决冲突。
         // 每个数组元素Entery（由key，value，next组成）存储一个链表的头结点Node。
@@ -37,7 +37,7 @@ public class Collection {
         List list = new ArrayList();
         // Vector底层结构为数组，线程安全。查找慢，增删快。
         List vector = new Vector();
-        // LinkedList底层结构为双向链表，线程不安全。查找快，增删慢(除了头尾)。
+        // LinkedList底层结构为双向链表，线程不安全。查找慢，增删快(除了头尾)。
         List linkedList = new LinkedList();
         // HashSet底层结构为Hash表。无序，无重复值。
         Set set = new HashSet();
